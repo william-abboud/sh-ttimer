@@ -89,8 +89,7 @@ export const HomeScreen = ({ navigation }) => {
                 <AppText
                   size="h4"
                   style={styles.storedEarning}
-                >{`${storedEarning.toFixed(2)}$`}</AppText>{" "}
-                so far. Keep sending Obama to the White house!
+                >{`${storedEarning.toFixed(2)}$`}</AppText>
               </AppText>
             )}
           </View>
